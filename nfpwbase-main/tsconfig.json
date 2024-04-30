@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["@playwright/test", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["components/index"],
+      "@enums": ["enums/index"],
+      "@fixtures/*": ["fixtures/*"],
+      "@models": ["models/index"],
+      "@pages": ["pages/index"],
+      "@utils/*": ["utils/*"]
+    }
+  }
+}
